@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="384dp"
+        android:layout_height="282dp"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.407"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.679" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:shadowColor="#9C27B0"
+        android:text="@string/back"
+        android:textColorHighlight="@color/white"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.95"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/lvl_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="角色等級"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.05"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/attack_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戰鬥力"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.913"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.194" />
+
+    <TextView
+        android:id="@+id/milage_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目前總里程數"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.071"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.844" />
+
+    <TextView
+        android:id="@+id/speed_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="速度加成"
+        android:textColor="#00BCD4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.139"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/safe_txv"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="安全區域"
+        android:textColor="@color/white"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.944"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.953" />
+
+    <TextView
+        android:id="@+id/tvsit"
+        android:layout_width="206dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/app_name"
+        android:text=" "
+        android:textColor="#04E30D"
+        android:textColorHighlight="#06DC0E"
+        android:textColorHint="#00FF0A"
+        android:textColorLink="#03C80B"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.092"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
