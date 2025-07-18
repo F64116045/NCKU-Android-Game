@@ -19,7 +19,8 @@ app/
 │   │   ├── res/                          
 │   │   └── AndroidManifest.xml          
 │   ├── test/                           
-├── build.gradle.kts               
+├── gradle
+...             
 ```
 
 | 檔案             | 功能說明 |
