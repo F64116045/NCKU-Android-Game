@@ -16,7 +16,7 @@ app/
 │   │   │   ├── monsterfight.java         # 
 │   │   │   ├── boss.java                 # 
 │   │   │   ├── Backpack.java             # 
-│   │   ├── res/                          # U
+│   │   ├── res/                          
 │   │   └── AndroidManifest.xml          
 │   ├── test/                           
 ├── build.gradle.kts               
