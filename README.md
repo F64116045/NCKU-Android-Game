@@ -5,7 +5,22 @@
 https://youtu.be/M9KC_KKuO4E?si=qcQIy4GW_Wsy-joS
 
 ## Main Application Code
-`app/src/main/java/com/example/finalproject/`
+```
+app/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/finalproject/
+│   │   │   ├── MainActivity.java         # 
+│   │   │   ├── MapsActivity.java         # 
+│   │   │   ├── BigMap.java               # 
+│   │   │   ├── monsterfight.java         # 
+│   │   │   ├── boss.java                 # 
+│   │   │   ├── Backpack.java             # 
+│   │   ├── res/                          # U
+│   │   └── AndroidManifest.xml          
+│   ├── test/                           
+├── build.gradle.kts               
+```
 
 | 檔案             | 功能說明 |
 |----------------------|----------|
